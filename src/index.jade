@@ -1,0 +1,424 @@
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
+    title Contribute To Node.js, You Ingrate!
+
+    link(rel='stylesheet', type='text/css', href='build/build.css')
+
+  style.
+    .breakfast {
+      background-image: url('images/breakfast-machine.gif')
+    }
+
+    .collaborator {
+      background-image: url('images/collaborator.png')
+    }
+
+    .kinetic {
+      background-image: url('images/kinetic-installation.gif')
+    }
+
+    .domino {
+      background-image: url('images/domino.gif')
+    }
+    
+    .music {
+      background-image: url('images/playing-music.jpg')
+    }
+    
+    .string-theory {
+      background-image: url('images/string-theory.jpg')
+    }
+    
+    .developer {
+      background-image: url('images/Myles-develops.png')
+    }
+    
+    .legit {
+      background-image: url('images/legit.png')
+    }
+    
+    .anecdote {
+      background-image: url('images/anecdote.jpg')
+    }
+    
+    .deep-dive {
+      background-image: url('images/deep-dive.gif')
+    }
+    
+    .ogre {
+      background-image: url('images/ogre.gif')
+    }
+    
+    .libuv {
+      background-image: url('images/libuv.png')
+    }
+    
+    .badger {
+      background-image: url('images/badger.gif')
+    }
+
+    .time-travel {
+      background-image: url('images/hack-time.gif')
+    }
+    
+    .fail {
+      background-image: url('images/fail.gif')
+    }
+    
+    .fail-too {
+      background-image: url('images/fail-too.gif')
+    }
+    
+    .uatu {
+      background-image: url('images/uatu.jpg')
+    }
+    
+    .bisect {
+      background-image: url('images/bisect.gif')
+    }
+
+  body
+
+    article
+
+      section
+        :markdown
+          # Contribute To Node.js, You Ingrate!
+
+      section
+        :markdown
+          ## About Me
+          * [@trott](https://twitter.com/trott)
+          * Blah blah.
+          * Do you really care?!
+
+      section(data-bespoke-backdrop='collaborator')
+        :markdown
+          ## I'm Collaborator #35 on io.js
+          * Which...yeah...so what?
+          * It's a lame #humblebrag.
+          * But it's a lame #humblebrag _you_ should be making.
+        
+      section
+        h2 Warning
+        h3 Cliché ahead!
+
+      section
+        h2 If I can do it, anyone can!
+
+      section(data-bespoke-backdrop='music')
+        h1 I am a musician
+
+      section(data-bespoke-backdrop='developer')
+        h1 I am a developer
+        
+      section(data-bespoke-backdrop='legit')
+        h1 I am a legitimate public speaker
+
+      section
+        h1 Why should you care?
+
+      section
+        h2 Any Given Element of One System
+        h3 Is Simultaneously an Element in an Infinity of Other Systems
+        h5 The Systems Bible by John Gall
+
+      section
+        a.no-underline(href='https://twitter.com/ceejbot/status/597605530165739520')
+          img(src='images/systemsbible.jpg' alt='Book cover of The Systems Bible by John Gall')
+
+      section(data-bespoke-backdrop='breakfast')
+        h1 When we write code we create systems
+
+      section(data-bespoke-backdrop='kinetic')
+        h1 I often think of large software systems as kinetic art
+        
+      section(data-bespoke-backdrop='kinetic')
+        h2 Every piece needs to line up perfectly for the system to work.
+        
+      section(data-bespoke-backdrop='domino')
+        h2 If any part of that system breaks
+        h3 you are going to have a bad time
+
+      section
+        h2 This was a very important lesson for me to learn
+        h3 Sometimes you can write perfect code and still not have it work
+        h4 The problem lies somewhere else in the system
+
+      section
+        h1 How do you believe me
+
+      section(data-bespoke-backdrop='anecdote')
+      
+      section(data-bespoke-backdrop='emphatic')
+        img(src='images/famous_logo.svg' alt='famous' style='background-color:white;')
+      
+      section
+        img(src='images/demo-fails.png' alt='screen cap from github issue when svg broke' width='100%')
+
+      section
+        img(src='images/freakout.gif' alt='my response in gif format, man walks into room on fire. At least he has pizza!')
+        
+      section
+        h1 I immediately assumed that we did something wrong.
+
+      section
+        h2 I tried testing an older version of the seed project and noticed everything worked
+        h3 I began to theorize that we had introduced a nasty regression into the platform
+        
+      section
+        h2 I went into our CEO / CTO's office and told them we might have to push an emergency hotfix
+        h3 That I wouldn't leave until we figured out what was going on
+        
+      section
+        h2 After a bit of time it hit me
+        h3 Our new seed project was using an svg, and the old one was using a png
+      
+      section
+        img(src='images/table-flip.gif' alt='a small table is flipped with a single finger')
+        
+      section
+        img(src='images/svg-broke.png' alt='screen grab from github thread about broken svg' width='100%')
+        
+      section
+        img(src='images/firefox-bugzilla.png' alt='screen grab from bugzilla thread about broken svg' width='100%')
+      
+      section
+        img(src='images/heart-mozilla.png' alt='we really do love mozilla')
+      
+      section
+        h2 The bug was fixed within 10 days
+        h2 and on Jan 13th firefox 35 was released
+        
+      section
+        h2 For a month and a half anyone writing against the spec
+        h3 would get a broken result
+        
+      section
+        h2 As Systems Grow in Size and Complexity
+        h3 They Tend to Lose Basic Functions
+        h4 The Systems Bible by John Gall
+        
+      section
+        h1 Where do we begin?
+        
+      section
+        h1 Chokidar
+        
+      section
+        h2 What is a chokidar?
+
+      section#pokemon
+        ul
+          li
+            img(src='images/charmander-evolution.png' alt='A picture of all three stages of the charmander evolution system.')
+          li
+            img(src='images/not-chokidar.png' alt='The same picture with an arrow pointing at charmelion, whom is definitely not chokidar. Despite popular believe a chokidar is not a pokémon')
+
+      section
+        a.no-underline(href='https://github.com/paulmillr/chokidar')
+          img(src='images/chokidar-repo.png' alt='a screen capture from the chokidar repo' width='50%')
+
+      section
+        h1 Why do we have to wrap fs.watch?
+      
+      section(data-bespoke-backdrop='badger')
+        h1 File watching on OSX is not POSIX standard
+      
+      section
+        img(src='images/wat.jpg' alt='Beaker from the muppets saying wat, because he does not understand POSIX either' width='50%')
+      
+      section
+        h3 I know this because Forrest told me
+        a.no-underline.headroom(href='https://twitter.com/othiym23')
+          img(src='images/forrest.png' alt='this is forrest' width='50%')
+
+      section
+        h2 POSIX is a set of IEEE standards
+        h3 It is designed to uniform system level apis
+        h3 Across Unix'y operating systems
+        
+      section
+        h1 I'm Positive about POSIX
+      
+      section(data-bespoke-backdrop='libuv')
+        h3 "libuv wants to be agnostic to some platform specific nuances"
+        h4 Rough quote of what Forrest told me at a Dance.js
+
+      section
+        h3 Consequences for fs.watch on OSX?
+        ul
+          li Only poll based
+          li Doesn't report filenames
+          li Doesn't report events at all when using editors like Sublime.
+          li Often reports events twice.
+          li Emits most changes as rename
+          li Does not provide an easy way to recursively watch file trees.
+
+      section
+        h3 Consequences for fs.watchFile
+        ul
+          li Almost as bad at event handling.
+          li Also does not provide any recursive watching.
+          li Results in high CPU utilization.
+
+
+      section(data-bespoke-backdrop='ogre')
+        h2 Layers like an ogre
+        ul
+          li Native File System Watching (not POSIX compliant on OSX)
+          li libuv (does nothing special for OSX)
+          li Node.js (inherits problems for libuv)
+          li fsevents (natively compiled module for osx)
+          li chokidar (shim fsevents when necessary)
+
+      section
+        img(src='images/cannot-deal.gif' alt='I cannot deal with all of this' width='70%')
+
+      section
+        h3 A slightly less seizure inducing flow graph
+        img(src='images/watching-web.jpg' alt='a flow graph of what is going on in the dep tree' width='50%')
+
+      section
+        h2 Every Picture Tells a Story
+        h3 But Not the same Story
+        h4 The Systems Bible by John Gall
+      
+      section(data-bespoke-backdrop='time-travel')
+        h1 Let's go back in time
+      
+      section
+        h3 Our Team is using Browserify + Watchify for All the things!
+        img(src='images/browserify.png' alt='browserify logo')
+
+      section
+        h3 We are also making lots of modules 
+        h3 and using npm link to wire them up in development
+        img(src='images/npm-logo.svg' alt='npm logo')
+        
+      section
+        h2 This makes lot of
+        h3 SYMBOLIC LINKS!!!!
+        
+      section(data-bespoke-backdrop='fail')
+        h1 One day everything decided to stop working!
+      
+      section(data-bespoke-backdrop='fail')
+        h2 Our Developers are having to refresh their dev servers randomly due to strange bugs
+      
+      section
+        h3 It Turns out watching symbolic links stopped working!
+        img(src='images/watchify-stops-working.png' alt='screen cap from github thread of watchify no longer working' width='50%')
+        
+      section
+        h3 Which apparently hasn't worked in chokidar ever
+        img(src='images/chokidar-feature-request.png' alt='original feature request for symlink watching' width='50%')
+        
+      section
+        h3 Except for when it did start working accidentally
+        img(src='images/fixed-for-free.png' alt='turns out this got fixed in node, but not in fsevents' width='50%')
+        h4 As long as you are not using fsevents on OSX
+
+      section(data-bespoke-backdrop='emphatic')
+        h2 Go home Chokidar
+        h3 you are drunk
+        img(src='images/derpmander.gif' alt='a derpy charmander' height='60%')
+        
+      section(data-bespoke-backdrop='uatu')
+        h1 Enter Uatu
+        
+      section
+        h3 Uatu was a unity test suite to test each layer of the stack for filewatching
+        pre
+          code.language-javascript.
+            test('symlink: fsevents', function(t) {
+              t.plan(1);
+              var watcher = fsevents(indexer(origin));
+              watcher.on('change', function (path, info) {
+                watcher.stop();
+                t.ok(path);
+                console.log(path);
+                console.log(info);
+              });
+              watcher.start();
+            });
+      
+      section
+        h3 Knowing that an earlier version of watchify (0.8.1) worked
+        h4 I could use this unit test suite
+        h4 along with git bisect
+        h4 to sniff out the broken commit
+      
+      section(data-bespoke-backdrop='bisect')
+        h1 What is bisect?
+        
+      section
+        img(src='images/pot-of-gold.png' alt='sweet success I found the bug!' width='70%')
+        
+      section
+        img(src='images/nailed-it-chokidar.png' alt='they agree!' width='70%')
+      
+      section
+        h3 So it is an easy fix once you know what to look for!
+        img(src='images/easy-fix.png' alt='easy to fix when you know what is broken!' width='70%')
+        
+      section
+        h3 An update to fix watchify!
+        img(src='images/fix-watchify.png' alt='bump dep and fix watchify!' width='70%')
+
+      section
+        h3 Closing 2 year old issues!
+        img(src='images/closing-issues-chokidar.png' alt='closing those 2 year old issues!' width='70%')
+        
+      section
+        h2 In Order to Succeed 
+        h3 It is Necessary to Know How to Avoid
+        h3 The most Likely Ways to Fail
+        h4 The Systems Bible by John Gall
+
+      section
+        h1 Don't forget you are always in a system
+      
+      section
+        h2 Thank You
+        img.headroom(src='images/best-gif-evar.gif' alt='a surfing puppy' width='20%')
+        h3 Myles Borins
+        h4 @thealphanerd
+      //- section
+      //-   h2 Syntax Highlighting
+      //-   h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
+      //-   pre
+      //-     code.language-javascript.
+      //-       bespoke.from('article', [
+      //-         classes(),
+      //-         keys(),
+      //-         touch(),
+      //-         bullets('li, .bullet')
+      //-       ]);
+
+      //- section(data-bespoke-hash='named-route')
+      //-   h2 Named Route
+      //-   h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
+      //-   p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
+
+      //- section.emphatic-text(data-bespoke-backdrop='emphatic')
+//-         h2 Emphatic Slide!
+//-         h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
+
+      //- section
+      //-   h2.bullet Just the beginning...
+      //-   br
+      //-   ul
+      //-     li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
+      //-     li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
+      //-     li Edit JavaScript in <em>'src/scripts/main.js'</em>
+      //-   br
+      //-   ul
+      //-     li
+      //-       strong Enjoy! :)
+      //-       a(href='http://twitter.com/markdalgleish')  -@markdalgleish
+
+    script(src='build/build.js')
