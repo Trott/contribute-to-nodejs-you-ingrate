@@ -118,7 +118,7 @@ pre[class*="language-"] {
 }
 
 .bespoke-backdrop-active {
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .headroom {
   margin-top: 1em;
