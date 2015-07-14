@@ -1,5 +1,9 @@
 {
   "name": "contribute-to-node-you-ingrate",
+  "repository" :
+  { "type" : "git"
+  , "url" : "https://github.com/Trott/contribute-to-nodejs-you-ingrate.git"
+  },
   "version": "0.0.0",
   "devDependencies": {
     "bespoke": "^1.0.0",
