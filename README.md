@@ -18,3 +18,9 @@ Install dependencies and run the preview server:
 $ npm install && bower install
 $ gulp serve
 ```
+
+##License
+
+  * The software within this project is licensed under the MIT license
+  * The content within this project (original text) is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Public License
+  * You can find the copy of each license in this repo
