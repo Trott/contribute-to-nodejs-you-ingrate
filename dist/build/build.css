@@ -120,25 +120,10 @@ pre[class*="language-"] {
 .bespoke-backdrop-active {
   opacity: 0.5;
 }
-.anecdote.bespoke-backdrop-active {
-  opacity: 1;
-}
-.uatu.bespoke-backdrop-active {
-  opacity: 1;
-}
-#pokemon li {
-  list-style-type: none;
-}
-#pokemon li:not(.bespoke-bullet-current) {
-  display: none;
-}
-#pokemon li img {
-  width: 50%;
-  margin-left: 25%;
-}
-a.no-underline {
-  color: #000;
-}
 .headroom {
   margin-top: 1em;
+}
+a {
+  padding-left: 0;
+  border-bottom: 0;
 }
